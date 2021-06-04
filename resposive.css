@@ -1,0 +1,20 @@
+@media screen and (max-width:1000px){
+    body{
+        background-color: turquoise;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+    }
+    nav ul{
+        justify-content: center;
+    }
+    .serch input{
+        margin: 12px 16px;
+    }
+    .slider{
+        height: 23vh;
+    }
+}

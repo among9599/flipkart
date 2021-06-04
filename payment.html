@@ -1,0 +1,39 @@
+﻿
+<! DOCTYPE html>
+<head><title>Payment for</title></head>
+<body>
+    <style>
+        h2{
+            color: darkviolet;
+        }
+    </style>
+<h2>Payment Form</h2>
+<p style="color: mediumseagreen;">Required field are followed by*<br><h3>Contact Information</h3>
+Name:*<input type="text" name="name" required></p>
+<fieldset><legend>Gender*</legend>
+<p>
+    Male <input type="radio" name="gender" required>
+    Femail <input type="radio" name="gender" required>
+    Trans-Gender <input type="radio" name="gender" required>
+    </p>
+</fieldset>
+
+    Address:<p><textarea name="address" cols="100" rows="8"></textarea></p>
+<p>Email:* <input type="email" name="email" required> </p>
+<p>Pincode:*<input type="number" name="pincode" required></p>
+<h1>Payment Information</h1>
+<p>card Type:*
+<select> name="card_type">
+    <option value="">>--Select a card<--</option>
+    <option value="visa">visa</option>
+    <option value="rupya">rupya</option>
+    <option value="master_card">master_card></option>
+</select>
+</p>
+<p style="blue">card number:*<input type="number" name="number" required</p>
+<p>Expiration date<input type="date" name="date" required</p>
+<p>cvv:*<input type="password" name="password" required</p>
+<p><input type="submit" value="pay Now"></p>
+
+</body>
+</html>
